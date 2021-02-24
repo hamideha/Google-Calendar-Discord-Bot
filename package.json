@@ -1,0 +1,19 @@
+{
+  "name": "calendar-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot to send reminders for Google Calendar events",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MacMSA Tech Team",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cron": "^1.8.2",
+    "dayjs": "^1.10.4",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "get-urls": "^10.0.0"
+  }
+}
