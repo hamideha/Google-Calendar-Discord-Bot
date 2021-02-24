@@ -8,7 +8,7 @@ const { getCalendar } = require('./helpers/helpers')
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.username}, ${client.user.id}`);
-    var job = new CronJob('00 00 10 * * 1', () => {
+    var job = new CronJob('00 46 22 * * 2', () => {
         getCalendar(Discord)
             .then(data => {
                 data.map((embed) => {
