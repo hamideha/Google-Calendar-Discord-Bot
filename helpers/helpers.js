@@ -41,7 +41,11 @@ const getCalendar = async (Discord) => {
 
         eventEmbed
             .setColor('#833037')
-            .setTitle(`${summary} (${startTime})`)
+            .setAuthor('MacMSA Events')
+            .setTitle(`${summary}`)
+            .addFields(
+                { name: 'Date:', value: `${startTime}` },
+            )
             .setDescription(eventLink || '')
         if (embedImageUrl) { eventEmbed.setImage(embedImageUrl) }
 
