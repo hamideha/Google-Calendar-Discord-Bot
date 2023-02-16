@@ -9,7 +9,7 @@
   "author": "MacMSA Tech Team",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.3",
+    "axios": "^0.27.2",
     "cron": "^1.8.2",
     "dayjs": "^1.10.4",
     "discord.js": "^12.5.1",
